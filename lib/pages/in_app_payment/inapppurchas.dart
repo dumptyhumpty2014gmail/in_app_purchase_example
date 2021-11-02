@@ -29,7 +29,7 @@ void listenToPurchaseUpdated(List<PurchaseDetails> purchaseDetailsList) {
     Hive.box('in_apppurhase').put(
         'inapploger',
         Hive.box('in_apppurhase').get(
-              'inapplogук',
+              'inapploger',
               defaultValue: '',
             ) +
             "; " +
